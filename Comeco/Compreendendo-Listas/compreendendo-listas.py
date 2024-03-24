@@ -36,5 +36,5 @@ print(nomes_mais)
 
 print('------------------------')
 
-nomes_A = [nome.upper() for nome in nomes if nome[0] == 'A']    # Iremos deixar apenas os nomes que começam com a letra A em MAIÚSCULO. Expressão, for, condição
+nomes_A = [nome.upper() for nome in nomes if nome[0] == 'A']    # Iremos deixar apenas os nomes que começam com a letra A em MAIÚSCULO. O [0] significa a primeira letra. Expressão, for, condição
 print(nomes_A)
