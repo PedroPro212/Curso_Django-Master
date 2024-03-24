@@ -1,0 +1,11 @@
+Propriedades:
+marca: Nokia
+modelo: Tijolão
+cor: Azul
+tem câmera? Não
+bateria: infinita
+
+Funções:
+fazer ligações
+jogar cobrinha
+despertador
