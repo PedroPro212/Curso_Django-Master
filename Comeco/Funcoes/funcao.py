@@ -37,4 +37,4 @@ pessoas = [     # Criamos um dicionário
 
 for pessoa in pessoas:  # Criamos um for para percorrer essa lista
     email_enviado = envia_email(pessoa['nome'], pessoa['email'])    # Para cada repetição ele chama a função 'envia_email'
-    print(email_enviado)
+    print(email_enviado)    # Printa o resultado do for
