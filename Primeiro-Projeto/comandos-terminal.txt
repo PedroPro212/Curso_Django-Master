@@ -10,7 +10,12 @@ django-admin --version
 # Criar projeto inicial Django
 django-admin startproject app . 
 # OBS: Para criar os arquivos em uma pasta especifica, use \Primeiro-Projeto depois do 'app .'
-python manage.py startapp cars 
 
 # Para rodar o Django
 python .\Primeiro-Projeto\manage.py runserver
+
+# O comando migrate cria tabelas padrões necessárias
+python .\Primeiro-Projeto\manage.py migrate 
+
+# Para criar um super usuário
+python .\Primeiro-Projeto\manage.py createsuperuser
